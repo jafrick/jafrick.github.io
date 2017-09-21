@@ -1,0 +1,50 @@
+.navbar {
+    border-radius: 0px;
+}
+
+/* .search {
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    background-color: transparent;
+} */
+
+
+.head h1 {
+     font-weight: bold; 
+}
+
+.head p {
+    font-size: 24px;
+}
+
+ #prime {
+    background-color: #d9534f;
+    color: #fff;
+    text-align: center;
+}
+
+#prime:hover{
+    background-color: #c9302c;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .head p{
+        font-size: 14px;
+    }
+
+    .navbar-form button{
+        width: 100%;
+    }
+}
+
